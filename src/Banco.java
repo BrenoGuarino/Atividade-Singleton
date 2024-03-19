@@ -1,8 +1,8 @@
-public class Configuracao {
+public class Banco {
 
-    private Configuracao() {};
-    private static Configuracao instance = new Configuracao();
-    public static Configuracao getInstance() {
+    private Banco() {};
+    private static Banco instance = new Banco();
+    public static Banco getInstance() {
         return instance;
     }
     private String usuarioBanco;
